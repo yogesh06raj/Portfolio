@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    height: 6rem;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+}
+
+.main{
+    display: flex;
+    margin:2rem 4rem;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.yogi{
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+
+.image img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.option a{
+    font-size: 1.8rem;
+    float: left;
+    display: block;
+    color: #090909;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #666;
+}
+
+.home{
+    padding-top: 7rem;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icons img{
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+
+
+.name{
+    text-align: center;
+    width: 80%;
+    height: 12rem;
+    padding: 4rem;
+}
+.name h1{
+    align-items: center;
+    height: 40%;
+}
+.name p{
+    height: 40%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: large;
+}
+
+.name button{
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.about{
+    padding-top: 7rem;
+    text-align: center;
+    height: 40rem;
+    padding: 2rem;
+}
+
+.about h1{
+    padding-top: 6rem;
+}
+
+.about p{
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.know_me{
+    width: 50%;
+    font-size: 25px;
+}
+
+.know_me button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.skills{
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+}
+
+.skills button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.project{
+    padding-top: 6rem;
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.project h2{
+    padding-top: 6rem;
+}
+
+.project_one, .project_two, .project_three{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.imag{
+    width: 50%;
+    height: 25rem;
+}
+
+.imag1 img{
+    border-radius: 6px;
+    width: 40rem;
+    height: 25rem;
+}
+.imag2 img{
+    border-radius: 6px;
+    padding-left: 4rem;
+    width: 36rem;
+    height: 25rem;
+}
+.imag3 img{
+    border-radius: 6px;
+    width: 40rem;
+    height: 25rem;
+}
+
+
+
+.project_details h2,p{
+    padding: 1rem;
+}
+
+.project_details button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.contact{
+    padding-top: 6rem;
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    padding-top: 6rem;
+}
+
+.form{
+    padding: 1rem;
+    border-radius: 5px;
+    align-items: left;
+    background-color: bisque;
+    height: 25rem;
+    width: 30rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form input{
+    width: 18rem;
+    height: 2rem;
+    border-radius: 6px;
+    
+}
+
+#Message{
+    height: 10rem;
+}
+
+.form button{
+    margin-left: 11rem;
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: rgb(85, 84, 84);
+    color: white;
+    padding: 2rem;
+}
+.footer img{
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+}

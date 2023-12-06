@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    height: 6rem;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+}
+
+.main{
+    display: flex;
+    margin:2rem 4rem;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.yogi{
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+
+.image img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.option a{
+    font-size: 1.8rem;
+    float: left;
+    display: block;
+    color: #090909;
+    text-align: center;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+}
+.option a:hover{
+    transition: all ease-in 0.5s;
+    background-color: #666;
+    border-radius: 20px;
+
+}
+
+
+
+.home{
+    padding-top: 7rem;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons img{
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+
+
+.name{
+    text-align: center;
+    width: 80%;
+    height: 12rem;
+    padding: 4rem;
+}
+.name h1{
+    align-items: center;
+    height: 40%;
+}
+.name p{
+    height: 40%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: large;
+}
+
+.name button{
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: medium;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+.about{
+    padding-top: 7rem;
+    text-align: center;
+    height: 40rem;
+    padding: 2rem;
+}
+
+.about h1{
+    padding-top: 6rem;
+}
+
+.about p{
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.know_me{
+    width: 50%;
+    font-size: 1.6rem;
+}
+
+.know_me button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.skills{
+    width: 50%;
+    text-align: left;
+    font-size: 1.6rem;
+}
+
+.skills button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.project{
+    padding-top: 6rem;
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+
+.project h2{
+    padding-top: 6rem;
+}
+
+.project_one, .project_two, .project_three{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.imag{
+    width: 50%;
+    height: 25rem;
+}
+
+.imag1 img{
+    border-radius: 6px;
+    width: 40rem;
+    height: 25rem;
+}
+.imag2 img{
+    border-radius: 6px;
+    padding-left: 4rem;
+    width: 36rem;
+    height: 25rem;
+}
+.imag3 img{
+    border-radius: 6px;
+    width: 40rem;
+    height: 25rem;
+}
+
+
+
+.project_details h2,p{
+    padding: 1rem;
+}
+
+.project_details button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.contact{
+    padding-top: 6rem;
+    padding: 1rem;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h1{
+    padding-top: 6rem;
+}
+
+.form{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    align-items: left;
+    background-color: bisque;
+    height: 25rem;
+    width: 30rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form input{
+    width: 18rem;
+    height: 2rem;
+    border-radius: 0.6rem;
+    
+}
+
+#Message{
+    height: 10rem;
+}
+
+.form button{
+    margin-left: 11rem;
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.footer{
+    background-color: rgb(85, 84, 84);
+    color: white;
+    padding: 2rem;
+}
+.footer img{
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+@media only screen and (max-width: 760px) {
+  /* CSS styles for device size 760px or less */
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    height: 6rem;
+    width: 100%;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+}
+
+.main{
+    display: flex;
+    margin:2rem 4rem;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.yogi{
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.6rem;
+}
+
+.image img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.option a{
+    font-size: 1.8rem;
+    float: left;
+    display: block;
+    color: #090909;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: #666;
+}
+
+.home{
+    padding-top: 7rem;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 40rem;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icons img{
+    border: 1px solid black;
+    height: 3rem;
+    width: 3rem;
+
+}
+
+
+
+.name{
+    text-align: center;
+    width: 80%;
+    height: 12rem;
+    padding: 4rem;
+}
+.name h1{
+    align-items: center;
+    height: 40%;
+}
+.name p{
+    height: 40%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: large;
+}
+
+.name button{
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.about{
+    padding-top: 7rem;
+    text-align: center;
+    height: 40rem;
+    padding: 2rem;
+}
+
+.about h1{
+    padding-top: 6rem;
+}
+
+.about p{
+    margin: 2rem;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.know_me{
+    width: 50%;
+    font-size: 25px;
+}
+
+.know_me button{
+    width: 10rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+/* Responsive CSS code for device size 760px */
+
+@media only screen and (max-width: 760px) {
+  /* Adjust the menu height and font size */
+  .menu {
+    height: 4rem;
+    font-size: 1.2rem;
+  }
+
+  /* Adjust the image size and margin */
+  .image img {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+  }
+
+  /* Adjust the main margin and font size */
+  .main {
+    margin: 1rem 2rem;
+    font-size: 0.8rem;
+  }
+
+  /* Adjust the home height and flex direction */
+  .home {
+    height: 60rem;
+    flex-direction: column;
+  }
+
+  /* Adjust the icons flex direction and margin */
+  .icons {
+    flex-direction: row;
+    margin: 1rem;
+  }
+
+  /* Adjust the name width, height, padding, and font size */
+  .name {
+    width: 100%;
+    height: 20rem;
+    padding: 2rem;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust the name button width and height */
+  .name button {
+    width: 8rem;
+    height: 1.5rem;
+  }
+
+  /* Adjust the about height and font size */
+  .about {
+    height: 60rem;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust the card flex direction and margin */
+  .card {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  /* Adjust the know_me width and font size */
+  .know_me {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  /* Adjust the know_me button width and height */
+  .know_me button {
+    width: 8rem;
+    height: 1.5rem;
+  }
+}

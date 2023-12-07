@@ -35,7 +35,7 @@
     border-radius: 50%;
 }
 
-.option a{
+#option a{
     font-size: 1.8rem;
     float: left;
     display: block;
@@ -44,13 +44,19 @@
     padding: 1.5rem 2rem;
     text-decoration: none;
 }
-.option a:hover{
-    transition: all ease-in 0.5s;
+#option a:hover{
+    transition: all ease-in 0.2s;
     background-color: #666;
     border-radius: 20px;
 
 }
-
+.active {
+    background:#dfe0e5;
+    overflow:hidden;
+    border-left:2px solid #00f;
+    padding: 5px;
+    border-radius: 20px;
+  }
 
 
 .home{
